@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+}
+
+.image-one{
+    width: 80%;
+    border-radius:10px;
+    display: block;
+    margin:40px auto;
+    height:450px;
+    object-fit: fill;
+}
+
+
+.headng-contaner{
+   width: 80%;
+   margin:20px auto;
+}
+
+
+.heading{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size:2em;
+    color:hsl(24, 5%, 18%); 
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size:1em;   
+    color:hsl(0, 2%, 11%)
+    
+    
+}
+
+.main-container{
+    background-color: hsl(330, 100%, 98%);
+    padding:20px;   
+    width:80%;
+    display: block;
+    margin:20px auto;
+    border-radius: 25px;
+}
+.main-container h2{
+    font-size: 1.2em;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin:10px;
+    color:hsl(332, 43%, 37%);
+}
+.main-container ul{
+    margin:12px;
+    padding:14px;
+
+}
+
+.main-container span{
+    font-family:"Outfit", sans-serif;
+    color:hsl(20, 1%, 52%);
+    font-weight: bold;
+    font-size: 1em;
+}
+.main-container ul li{
+    font-size: 0.7em;
+    font-family:  "Outfit", sans-serif;
+    color:hsl(20, 2%, 27%);   
+}
+
+li::marker{
+    color:hsl(332, 43%, 37%);
+}
+.ingredients{
+    width:80%;
+    margin:auto;
+ 
+}
+
+.ingredients-heading{
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    font-size:1.3em;
+    color: hsl(14, 45%, 36%);
+}
+
+
+.ingredients li{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size:0.9em;
+    color:hsl(0, 2%, 11%);
+    padding:10px;
+
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color:hsl(24, 3%, 61%);
+    margin: 20px auto;
+    width:85%;
+}
+
+.instructions-container{
+    width:80%;
+    margin:auto;
+}
+
+.instructions-heading{
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    font-size:1.3em;
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions-container li{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size:0.8em;
+    color:hsl(0, 2%, 11%);
+    padding:10px;
+
+}
+
+.instructions-container li span{
+    font-family:"Outfit", sans-serif;
+    color:hsl(20, 1%, 52%);
+    font-weight: bold;
+    font-size: 1em;
+    
+}
+
+.nutrition-container{
+    width:80%;
+    margin:auto;
+
+}
+.nutrition-heading{
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    font-size:1.3em;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 20px;
+
+}
+.nutrition-container p{
+    font-size:1em;
+}
+
+.calories{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    font-family:"Outfit", sans-serif;
+
+}
+
+.calores-hr{
+    border: none;
+    height: 1px;
+    background-color:hsl(24, 3%, 61%);
+    margin: 20px auto;
+    width:100%;
+   
+
+}
+
+
+.name{
+    color:hsl(20, 1%, 52%);
+
+}
+
+.value{    
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+@media only screen and (max-width:375px){
+    .image-one{
+        width:375px;
+        height:200px; 
+        border-radius:0;
+        margin:0;   
+       
+    }
+    .heading{
+        font-size:1.7em;
+    }
+    p{
+        font-size:0.86em; 
+    }
+    .nutrition-container p{
+        font-size:0.8em;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
